@@ -3938,6 +3938,104 @@ screen and (max-height: 300px) {
     color: #fff;
 
 }
-.single-form .main-btn-2:hover{
+
+.single-form .main-btn-2:hover {
     background-color: #07294d;
 }
+
+.shop-area {
+    padding-top: 110px;
+}
+
+.shop-area {
+    padding-top: 110px;
+}
+
+.shop-showing {
+    margin-top: 30px;
+}
+
+.shop-showing p {
+    font-size: 14px;
+    letter-spacing: .02em;
+    color: #9c9c9c;
+}
+
+.shop-bar-form {
+    display: flex;
+}
+
+.shop-search {
+    width: 190px;
+    position: relative;
+    margin-top: 14px;
+}
+
+.shop-search input::placeholder {
+    opacity: 1;
+    color: #9c9c9c;
+}
+
+.shop-search input {
+    border: 0;
+    border-bottom: 1px solid #9c9c9c;
+    font-size: 14px;
+    width: 100%;
+    height: 35px;
+    letter-spacing: .02em;
+    color: #9c9c9c;
+}
+
+.shop-search i {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    font-size: 14px;
+}
+
+.shop-wrapper .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.single-library {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+.single-library .library-image {
+    position: relative;
+  }
+  .single-library .library-image .discount {
+    font-weight: 500;
+    font-size: 14px;
+    color: #151515;
+    position: absolute;
+    top: 28px;
+    left: 28px;
+  }
+  .library-content{
+    padding-left: 80px;
+  }
+  .single-library .library-content .library-title a:hover {
+    color: #0c8b51;
+  }
+  .single-library .library-content .library-title a {
+    font-weight: 600;
+    font-size: 18px;
+    color: #07294d;
+    transition: all .3s linear;
+  }
+  .single-library .library-content .price {
+    font-weight: 500;
+    font-size: 14px;
+    color: #151515;
+    margin-top: 10px;
+    padding-left: 8px;
+  }
+  .single-library .library-content {
+    padding: 15px;
+  }
