@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" />
     <script src="https://kit.fontawesome.com/7109ebd684.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/ab8d99d22c.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -19,19 +19,19 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css" />
 </head>
 
 <body>
     <header class="header" id="header">
         <section class="wrapper container">
             <a href="index.html" class="brand">
-                <img src="image/logo.webp" alt="logo">
+                <img src="image/logo.webp" alt="logo" />
             </a>
             <div class="burger" id="burger">
                 <span class="burger-line"></span>
@@ -41,95 +41,128 @@
             <span class="overlay"></span>
             <nav class="navbar" id="navbar">
                 <ul class="menu" id="menu">
-                    <li class="menu-item"><a href="index.html" class="menu-link">Home</a></li>
+                    <li class="menu-item">
+                        <a href="index.html" class="menu-link">Home</a>
+                    </li>
 
                     <li class="menu-item menu-dropdown">
                         <span class="menu-link" data-toggle="submenu">Courses<i class="bx bx-chevron-down"></i></span>
                         <ul class="submenu">
-                            <li class="submenu-item"><a href="courses.html" class="submenu-link">Courses Grid</a></li>
-                            <li class="submenu-item"><a href="courses3.html" class="submenu-link">Courses</a></li>
-                            <li class="submenu-item"><a href="courseDetail.html" class="submenu-link">Courses
-                                    details</a></li>
+                            <li class="submenu-item">
+                                <a href="courses.html" class="submenu-link">Courses Grid</a>
+                            </li>
+                            <li class="submenu-item">
+                                <a href="courses3.html" class="submenu-link">Courses</a>
+                            </li>
+                            <li class="submenu-item">
+                                <a href="courseDetail.html" class="submenu-link">Courses details</a>
+                            </li>
                         </ul>
                     </li>
                     <li class="menu-item menu-dropdown">
                         <span class="menu-link events" data-toggle="submenu " data-bs-toggle="tab" aria-selected="true"
                             role="tab">Events<i class="bx bx-chevron-down"></i></span>
                         <ul class="submenu">
-                            <li class="submenu-item"><a href="events.html" class="submenu-link "> Event 1</a></li>
-                            <li class="submenu-item"><a href="event2.html" class="submenu-link">Event 2</a></li>
-                            <li class="submenu-item"><a href="eventDetails.html" class="submenu-link">Event
-                                    Details</a></li>
+                            <li class="submenu-item">
+                                <a href="events.html" class="submenu-link"> Event 1</a>
+                            </li>
+                            <li class="submenu-item">
+                                <a href="event2.html" class="submenu-link">Event 2</a>
+                            </li>
+                            <li class="submenu-item">
+                                <a href="eventDetails.html" class="submenu-link">Event Details</a>
+                            </li>
                         </ul>
                     </li>
                     <li class="menu-item menu-dropdown">
-                        <span class="menu-link " data-toggle="submenu">Pages<i class="bx bx-chevron-down"></i></span>
+                        <span class="menu-link" data-toggle="submenu">Pages<i class="bx bx-chevron-down"></i></span>
                         <ul class="submenu">
-                            <li class="submenu-item"><a href="about.html " class="submenu-link ">About</a></li>
-                            <li class="submenu-item"><a href="teacher.html" class="submenu-link ">Teachers</a></li>
-                            <li class="submenu-item"><a href="teacherdetails.html" class="submenu-link ">Teachers
-                                    details</a></li>
-                            <li class="submenu-item"><a href="gallery.html" class="submenu-link ">Gallery </a>
+                            <li class="submenu-item">
+                                <a href="about.html " class="submenu-link">About</a>
                             </li>
-                            <li class="submenu-item"><a href="gallery-masonry.html" class="submenu-link">Gallery
-                                    Masonry</a></li>
-                            <li class="submenu-item"><a href="testimonial.html" class="submenu-link  ">Testimonial</a>
+                            <li class="submenu-item">
+                                <a href="teacher.html" class="submenu-link">Teachers</a>
                             </li>
-                            <li class="submenu-item"><a href="faq.html" class="submenu-link ">FAQ'S</a></li>
-                            <li class="submenu-item"><a href="notice.html" class="submenu-link    ">Notice</a></li>
-                            <li class="submenu-item"><a href="login.html" class="submenu-link">Login</a></li>
-                            <li class="submenu-item"><a href="register.html" class="submenu-link">register</a></li>
+                            <li class="submenu-item">
+                                <a href="teacherdetails.html" class="submenu-link">Teachers details</a>
+                            </li>
+                            <li class="submenu-item">
+                                <a href="gallery.html" class="submenu-link">Gallery </a>
+                            </li>
+                            <li class="submenu-item">
+                                <a href="gallery-masonry.html" class="submenu-link">Gallery Masonry</a>
+                            </li>
+                            <li class="submenu-item">
+                                <a href="testimonial.html" class="submenu-link">Testimonial</a>
+                            </li>
+                            <li class="submenu-item">
+                                <a href="faq.html" class="submenu-link">FAQ'S</a>
+                            </li>
+                            <li class="submenu-item">
+                                <a href="notice.html" class="submenu-link">Notice</a>
+                            </li>
+                            <li class="submenu-item">
+                                <a href="login.html" class="submenu-link">Login</a>
+                            </li>
+                            <li class="submenu-item">
+                                <a href="register.html" class="submenu-link">register</a>
+                            </li>
                         </ul>
                     </li>
                     <li class="menu-item menu-dropdown">
                         <span class="menu-link active" data-toggle="submenu">Shop<i
                                 class="bx bx-chevron-down"></i></span>
                         <ul class="submenu">
-                            <li class="submenu-item"><a href="shop.html" class="submenu-link ">Shop</a></li>
-                            <li class="submenu-item"><a href="shop-left.html" class="submenu-link ">Shop Left
-                                    Slidebar</a></li>
-                            <li class="submenu-item"><a href="shop-right.html" class="submenu-link">Shop Right
-                                    Slidebar</a></li>
-                            <li class="submenu-item"><a href="shopDetail.html" class="submenu-link  active">Shop Details </a>
+                            <li class="submenu-item">
+                                <a href="shop.html" class="submenu-link">Shop</a>
+                            </li>
+                            <li class="submenu-item">
+                                <a href="shop-left.html" class="submenu-link">Shop Left Slidebar</a>
+                            </li>
+                            <li class="submenu-item">
+                                <a href="shop-right.html" class="submenu-link">Shop Right Slidebar</a>
+                            </li>
+                            <li class="submenu-item">
+                                <a href="shopDetail.html" class="submenu-link active">Shop Details
+                                </a>
                             </li>
                         </ul>
                     </li>
                     <li class="menu-item menu-dropdown">
                         <span class="menu-link" data-toggle="submenu">Blog<i class="bx bx-chevron-down"></i></span>
                         <ul class="submenu">
-                            <li class="submenu-item"><a href="#" class="submenu-link">Blog</a></li>
-                            <li class="submenu-item"><a href="#" class="submenu-link">Blog Left Slidebar</a></li>
-                            <li class="submenu-item"><a href="#" class="submenu-link">Blog Right Slidebar</a></li>
-                            <li class="submenu-item"><a href="#" class="submenu-link">Blog Details </a></li>
+                            <li class="submenu-item">
+                                <a href="blog.html" class="submenu-link">Blog</a>
+                            </li>
+                            
                         </ul>
                     </li>
 
-                    <li class="menu-item"><a href="#" class="menu-link">contact</a></li>
-
+                    <li class="menu-item"><a href="contact.html" class="menu-link">contact</a></li>
                 </ul>
             </nav>
             <div class="for-class">
                 <div class="for-glass">
                     <form action="#">
-                        <input type="text" placeholder="Search">
-                        <button class="fa"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        <input type="text" placeholder="Search" />
+                        <button class="fa">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
                     </form>
                 </div>
             </div>
         </section>
     </header>
     <section class="page-banner">
-        <div class="page-banner-bg bg_cover" style="background-image: url(image/page-banner.webp);">
+        <div class="page-banner-bg bg_cover" style="background-image: url(image/page-banner.webp)">
             <div class="container-5">
                 <div class="banner-content text-center">
-                    <h2 class="title" style="margin-left: -104px;">
-                        Product Details
-                    </h2>
+                    <h2 class="title" style="margin-left: -104px">Product Details</h2>
                 </div>
             </div>
         </div>
     </section>
-    <section class="product-details-page" style="padding-top: 110px;">
+    <section class="product-details-page" style="padding-top: 110px">
         <div class="container-5">
             <div class="row">
                 <div class="col-lg-9">
@@ -138,18 +171,15 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-6 col-md-8">
                                     <div class="details-image mt-5">
-                                        <img src="image/product-details.webp" alt="" width="377" height="453" style="width: 100%;">
+                                        <img src="image/product-details.webp" alt="" width="377" height="453"
+                                            style="width: 100%" />
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="details-content mt-5">
-                                        <h4 class="product-title">
-                                            Pen Holder
-                                        </h4>
+                                        <h4 class="product-title">Pen Holder</h4>
                                         <div class="price-rating">
-                                            <span class="price">
-                                                Price: $12.00
-                                            </span>
+                                            <span class="price"> Price: $12.00 </span>
                                             <ul class="rating">
                                                 <li class="rating-on">
                                                     <i class="fas fa-star"></i>
@@ -175,31 +205,35 @@
                                             <div class="colors">
                                                 <span>Color:</span>
                                                 <ul class="product-color d-flex">
-                                                    <li style="background-color: rgb(7, 41, 77);"></li>
-                                                    <li style="background-color: rgb(25, 144, 83);"></li>
-                                                    <li style="background-color: rgb(75, 70, 210);"></li>
-                                                    <li style="background-color: rgb(7, 41, 77);"></li>
-
+                                                    <li style="background-color: rgb(7, 41, 77)"></li>
+                                                    <li style="background-color: rgb(25, 144, 83)"></li>
+                                                    <li style="background-color: rgb(75, 70, 210)"></li>
+                                                    <li style="background-color: rgb(7, 41, 77)"></li>
                                                 </ul>
-                                            </div>  
-                                            <div class="size ">
+                                            </div>
+                                            <div class="size">
                                                 <span>Size:</span>
                                                 <ul class="product-size d-flex">
                                                     <li class="">
-                                                       <a href="#" class="active p-items"  data-bs-toggle="tab" aria-selected="true" role="tab">S</a>
+                                                        <a href="#" class="active p-items" data-bs-toggle="tab"
+                                                            aria-selected="true" role="tab">S</a>
                                                     </li>
-                                                    <li >
-                                                        <a href="#"  class="p-items" data-bs-toggle="tab" aria-selected="true" role="tab">M</a>
-                                                     </li>
-                                                     <li >
-                                                        <a href="#"class="p-items"  data-bs-toggle="tab" aria-selected="true" role="tab">L</a>
-                                                     </li>
-                                                     <li >
-                                                        <a href="#" class="p-items" data-bs-toggle="tab" aria-selected="true" role="tab">XL</a>
-                                                     </li>
-                                                     <li >
-                                                        <a href="#" class="p-items" data-bs-toggle="tab" aria-selected="true" role="tab">XXL</a>
-                                                     </li>
+                                                    <li>
+                                                        <a href="#" class="p-items" data-bs-toggle="tab"
+                                                            aria-selected="true" role="tab">M</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="p-items" data-bs-toggle="tab"
+                                                            aria-selected="true" role="tab">L</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="p-items" data-bs-toggle="tab"
+                                                            aria-selected="true" role="tab">XL</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="p-items" data-bs-toggle="tab"
+                                                            aria-selected="true" role="tab">XXL</a>
+                                                    </li>
                                                 </ul>
                                             </div>
                                             <div class="quantity">
@@ -208,11 +242,226 @@
                                                     <button class="sub" type="button" onclick=" down('1')">
                                                         <i class="fa fa-minus"></i>
                                                     </button>
-                                                    <input type="text" value="1" id="myNumber">
+                                                    <input type="text" value="1" id="myNumber" />
                                                     <button class="add" type="button" onclick="up('100')">
                                                         <i class="fa fa-plus"></i>
                                                     </button>
                                                 </div>
+                                            </div>
+                                            <div class="product-btn">
+                                                <a href="#" class="main-btn main-btn-2 add-cart">
+                                                    Add to Cart
+                                                </a>
+                                                <a href="#" class="wishlist">
+                                                    <i class="fa fa-heart"></i>
+                                                </a>
+                                                <a href="#" class="compare">
+                                                    <i class="fas fa-redo-alt"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-details-tab">
+                            <ul class="nav nav-justified">
+                                <li class="nav-item">
+                                    <a href="#description" class="active p-items" data-bs-toggle="tab"
+                                        aria-selected="true" role="tab">Description</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#information" class="p-items" data-bs-toggle="tab" aria-selected="true"
+                                        role="tab">Additional information</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#reviews" class="p-items" data-bs-toggle="tab" aria-selected="true"
+                                        role="tab">Reviews</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div id="description" class="tab-pane fade active show" role="tabpanel">
+                                    <div class="product-description">
+                                        <p>
+                                            Product are all great condition in same If you are going
+                                            use a passage of Lorem Ipsum need equal blame belongs to
+                                            those who fail in their duty through weakness of will,
+                                            which is the same as saying through shrinking from toil
+                                            and pain. These cases are perfectly simple and easy to
+                                            distinguish. <br /><br />
+
+                                            Not to warry about quality, because we If you are going
+                                            use a passage of Lorem Ipsum need equal blame belongs to
+                                            those who fail in their duty through weakness
+                                        </p>
+                                        <ul class="product-list">
+                                            <li>
+                                                <i class="far fa-check-circle"></i>
+                                                <p>
+                                                    Bachelor of Business Administration(BBA) If you are
+                                                    going use a passage of blame belongs to those who
+                                                    fail in their duty through weakness
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <i class="far fa-check-circle"></i>
+                                                <p>
+                                                    Bachelor of Business Administration(BBA) If you are
+                                                    going use a passage of blame belongs to those who
+                                                    fail in their duty through weakness
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <i class="far fa-check-circle"></i>
+                                                <p>
+                                                    Bachelor of Business Administration(BBA) If you are
+                                                    going use a passage of blame belongs to those who
+                                                    fail in their duty through weakness
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div id="information" class="tab-pane fade">
+                                    <div class="product-information table-responsive">
+                                        <table class="table">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="table-title">
+                                                        <h4 class="title">Materials</h4>
+                                                    </td>
+                                                    <td class="table-content">
+                                                        <p>Plastic grade</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="table-title">
+                                                        <h4 class="title">Quality</h4>
+                                                    </td>
+                                                    <td class="table-content">
+                                                        <p>Best quality</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="table-title">
+                                                        <h4 class="title">Cash on Delivery</h4>
+                                                    </td>
+                                                    <td class="table-content">
+                                                        <p>Yes</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="table-title">
+                                                        <h4 class="title">Return Policy</h4>
+                                                    </td>
+                                                    <td class="table-content">
+                                                        <p>30 Days</p>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="table-title">
+                                                        <h4 class="title">Dimension</h4>
+                                                    </td>
+                                                    <td class="table-content">
+                                                        <p>10X6X12</p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div id="reviews" class="tab-pane fade">
+                                    <div class="product-reviews">
+                                        <div class="review-wrapper">
+                                            <div class="review-star">
+                                                <div class="single-review">
+                                                    <span class="label">Star 5</span>
+                                                    <div class="review-bar">
+                                                        <div class="bar-inner" style="width: 100%;"></div>
+                                                    </div>
+                                                    <span class="value">35</span>
+                                                </div>
+                                                <div class="single-review">
+                                                    <span class="label">Star 4</span>
+                                                    <div class="review-bar">
+                                                        <div class="bar-inner" style="width: 80%;"></div>
+                                                    </div>
+                                                    <span class="value">10</span>
+                                                </div>
+                                                <div class="single-review">
+                                                    <span class="label">Star 3</span>
+                                                    <div class="review-bar">
+                                                        <div class="bar-inner" style="width: 55%;"></div>
+                                                    </div>
+                                                    <span class="value">8</span>
+                                                </div>
+                                                <div class="single-review">
+                                                    <span class="label">Star 2</span>
+                                                    <div class="review-bar">
+                                                        <!-- <div class="bar-inner" style="width: 55%;"></div> -->
+                                                    </div>
+                                                    <span class="value">0</span>
+                                                </div>
+                                                <div class="single-review">
+                                                    <span class="label">Star 1</span>
+                                                    <div class="review-bar">
+                                                        <!-- <div class="bar-inner" style="width: 55%;"></div> -->
+                                                    </div>
+                                                    <span class="value">0</span>
+                                                </div>
+                                            </div>
+                                            <div class="review-point">
+                                                <span>4.9</span>
+                                            </div>
+                                        </div>
+                                        <div class="review-form">
+                                            <div class="review-rating">
+                                                <h5 class="title">Write a Review</h5>
+                                                <ul id="stars">
+                                                    <li class="star">
+                                                        <i class="fas fa-star"></i>
+                                                    </li>
+                                                    <li class="star">
+                                                        <i class="fas fa-star"></i>
+                                                    </li>
+                                                    <li class="star">
+                                                        <i class="fas fa-star"></i>
+                                                    </li>
+                                                    <li class="star">
+                                                        <i class="fas fa-star"></i>
+                                                    </li>
+                                                    <li class="star">
+                                                        <i class="fas fa-star"></i>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="review-form-wrapper">
+                                                <form action="#">
+                                                    <div class="for-grid">
+                                                        <div class="single-form">
+                                                            <input type="text" placeholder="Name">
+                                                        </div>
+                                                        <div class="single-form">
+                                                            <input type="text" placeholder="Email">
+                                                        </div>
+                                                        <div class="single-form">
+                                                            <input type="text" placeholder="Phone">
+                                                        </div>
+                                                        <div class="single-form">
+                                                            <input type="text" placeholder="Title">
+                                                        </div>
+                                                        <div class="single-form">
+                                                            <textarea placeholder="Write here..."></textarea>
+                                                        </div>
+                                                    </div>
+                                                    <div class="single-form">
+                                                        <button class="main-btn">
+                                                            Submit Now
+                                                        </button>
+                                                    </div>
+                                                </form>
                                             </div>
                                         </div>
                                     </div>
@@ -221,9 +470,326 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-3">
+                    <div class="shop-sidebar pt-5">
+                        <div class="shop-sidebar-category mt-5">
+                            <div class="sidebar-title">
+                                <h4 class="title">Categories</h4>
+                            </div>
+                            <ul class="category-items">
+                                <li>
+                                    <div class="form-radio">
+                                        <input type="radio" id="categoryRadio1" name="categoryRadio">
+                                        <label for="categoryRadio1">
+                                            Science
+
+                                        </label>
+                                        <strong>(25)</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-radio">
+                                        <input type="radio" id="categoryRadio3" name="categoryRadio">
+                                        <label for="categoryRadio3">
+                                            Marketing
+
+                                        </label>
+                                        <strong>(18)</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-radio">
+                                        <input type="radio" id="categoryRadio4" name="categoryRadio">
+                                        <label for="categoryRadio4">
+                                            Design
+
+                                        </label>
+                                        <strong>(10)</strong>
+                                    </div>
+
+                                </li>
+                                <li>
+                                    <div class="form-radio">
+                                        <input type="radio" id="categoryRadio5" name="categoryRadio">
+                                        <label for="categoryRadio5">
+                                            Social Marketing
+
+                                        </label>
+                                        <strong>(05)</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-radio">
+                                        <input type="radio" id="categoryRadio6" name="categoryRadio">
+                                        <label for="categoryRadio6">
+                                            Fine Arts
+
+                                        </label>
+                                        <strong>(12)</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-radio">
+                                        <input type="radio" id="categoryRadio7" name="categoryRadio">
+                                        <label for="categoryRadio7">
+                                            Law
+
+                                        </label>
+                                        <strong>(05)</strong>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="shop-sidebar-price mt-5">
+                            <div class="sidebar-title">
+                                <div class="sidebar-title">
+                                    <h4 class="title">
+                                        Price Filter
+                                    </h4>
+                                </div>
+                                <ul class="price-items">
+                                    <li>
+                                        <div class="form-radio">
+                                            <input type="radio" id="categoryRadio8" name="categoryRadio">
+                                            <label for="categoryRadio8">
+                                                $50 to $200
+
+                                            </label>
+
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-radio">
+                                            <input type="radio" id="categoryRadio9" name="categoryRadio">
+                                            <label for="categoryRadio9">
+                                                $201 to $700
+
+                                            </label>
+
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-radio">
+                                            <input type="radio" id="categoryRadio10" name="categoryRadio">
+                                            <label for="categoryRadio10">
+                                                $800 to $5000
+
+                                            </label>
+
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-radio">
+                                            <input type="radio" id="categoryRadio11" name="categoryRadio">
+                                            <label for="categoryRadio11">
+                                                $6000 to $5000
+
+                                            </label>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="shop-sidebar-banner mt-5">
+                            <a href="#">
+                                <img src="image/banner3.webp" alt="">
+                            </a>
+                        </div>
+                        <div class="shop-sidebar-tags mt-5">
+                            <div class="sidebar-title">
+                                <h4 class="title">Tags</h4>
+                            </div>
+                            <ul class="tags-items">
+                                <li>
+                                    <a href="#">Books</a>
+                                </li>
+                                <li>
+                                    <a href="#">Event</a>
+                                </li>
+                                <li>
+                                    <a href="#">Pen</a>
+                                </li>
+                                <li>
+                                    <a href="#">Bags</a>
+                                </li>
+                                <li>
+                                    <a href="#">Pencil</a>
+                                </li>
+                                <li>
+                                    <a href="#">Stationery</a>
+                                </li>
+                                <li>
+                                    <a href="#">Science</a>
+                                </li>
+                                <li>
+                                    <a href="#">Art</a>
+                                </li>
+                                <li>
+                                    <a href="#">Fashion</a>
+                                </li>
+                                <li>
+                                    <a href="#">ecommerce</a>
+                                </li>
+                                <li>
+                                    <a href="#">Library</a>
+                                </li>
+                                <li>
+                                    <a href="#">Shopping</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+    <section class="newsletter-area">
+        <div class="container-5">
+            <div class="newsletter-wrapper bg_cover">
+                <div class="newsletter-content">
+                    <h2 class="title">Subscribe our Newsletter</h2>
+                    <span class="line"></span>
+                    <p>Even slightly believable. If you are going use a passage of Lorem Ipsum need some</p>
+
+                </div>
+                <div class="newsletter-form ">
+                    <form action="index.html">
+                        <input type="text" placeholder="Enter your email here">
+                        <button class="main-btn">
+                            Subscribe now
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer-area bg_cover" style="background-image: url(image/counter-bg.webp);">
+        <div class="footer-widget">
+            <div class="container-5">
+                <div class="footer-link">
+                    <h4 class="footer-title">Our Campus</h4>
+                    <ul class="link-list">
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Campus Map</a></li>
+                        <li><a href="">3600 View</a></li>
+                        <li><a href="">Notice board</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-link">
+                    <h4 class="footer-title">Information</h4>
+                    <ul class="link-list">
+                        <li><a href="">Admission</a></li>
+                        <li><a href="">Tuition fee</a></li>
+                        <li><a href="">Scholorship</a></li>
+                        <li><a href="">Coditions</a></li>
+                        <li><a href="">Facilities</a></li>
+                    </ul>
+                </div>
+                <div class="footer-link">
+                    <h4 class="footer-title">Useful Link</h4>
+                    <ul class="link-list">
+                        <li><a href="https://www.w3schools.com/">All Courses</a></li>
+                        <li><a href="">Our Teachers</a></li>
+                        <li><a href="">Our Events</a></li>
+                        <li><a href="">Blog post</a></li>
+                        <li><a href="">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-link">
+                    <h4 class="footer-title">Contact Info</h4>
+                    <ul class="link-list">
+                        <li>
+                            <p>
+                                245, New Town, Marklen Street North City, New York, USA
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="">
+                                    +01254 659 874 </a>
+                            </p>
+                            <p>
+                                <a href="">+32145 857 458</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="">
+                                    info@example.com </a>
+                            </p>
+                            <p>
+                                <a href="">www.example.com</a>
+                            </p>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-widget-wrapper">
+                <div class="footer-social">
+                    <ul class="social" style="margin-top: 20px !important;">
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-menu">
+                    <ul class="menu" style="display: flex;">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="about.html">Notice Board</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                        <li>
+                            <a href="courses.html">Courses</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-copyright">
+            <div class="container-5">
+                <div class="copyright text-center">
+                    <p>
+                        @ 2024
+                        <span>Edumate</span>
+                        Made with
+                        <i class="fa fa-heart"></i>
+                        by
+                        <a href="">EEE innovation</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"
@@ -249,7 +815,9 @@
         navbarMenu
             .querySelector(".menu-dropdown.active .submenu")
             .removeAttribute("style");
-        navbarMenu.querySelector(".menu-dropdown.active").classList.remove("active");
+        navbarMenu
+            .querySelector(".menu-dropdown.active")
+            .classList.remove("active");
     };
 
     // Toggle Mobile Submenu Function
@@ -293,94 +861,89 @@
     navbarMenu.addEventListener("click", toggleSubMenu);
     window.addEventListener("resize", resizeWindow);
 
-
     //    numbs
     var counted = 0;
     $(window).scroll(function () {
-
-        var oTop = $('.numbs').offset().top - window.innerHeight;
+        var oTop = $(".numbs").offset().top - window.innerHeight;
         if (counted == 0 && $(window).scrollTop() > oTop) {
-            $('.count').each(function () {
+            $(".count").each(function () {
                 var $this = $(this),
-                    countTo = $this.attr('data-count');
+                    countTo = $this.attr("data-count");
                 $({
-                    countNum: $this.text()
-                }).animate({
-                    countNum: countTo
-                },
+                    countNum: $this.text(),
+                }).animate(
+                    {
+                        countNum: countTo,
+                    },
 
                     {
-
                         duration: 2000,
-                        easing: 'swing',
+                        easing: "swing",
                         step: function () {
                             $this.text(Math.floor(this.countNum));
                         },
                         complete: function () {
                             $this.text(this.countNum);
                             //alert('finished');
-                        }
-
-                    });
+                        },
+                    }
+                );
             });
             counted = 1;
         }
-
     });
 
-    $('.slider-for').slick({
+    $(".slider-for").slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
         fade: true,
-        asNavFor: '.slider-nav'
+        asNavFor: ".slider-nav",
     });
-    $('.slider-nav').slick({
+    $(".slider-nav").slick({
         slidesToShow: 3,
         slidesToScroll: 1,
-        asNavFor: '.slider-for',
+        asNavFor: ".slider-for",
         dots: true,
-        focusOnSelect: true
+        focusOnSelect: true,
     });
+
     // active
 
-    $('a[data-slide]').click(function (e) {
+    $("a[data-slide]").click(function (e) {
         e.preventDefault();
-        var slideno = $(this).data('slide');
-        $('.slider-nav').slick('slickGoTo', slideno - 1);
+        var slideno = $(this).data("slide");
+        $(".slider-nav").slick("slickGoTo", slideno - 1);
     });
-    function addClassElementEvent(element,className,event){
-  
-  let elements = document.querySelectorAll(element);
+    function addClassElementEvent(element, className, event) {
+        let elements = document.querySelectorAll(element);
 
-  for(var i = 0; i<elements.length; i++) {
-      elements[i].addEventListener(event, function(event) {
-          [].forEach.call(elements, function(el) {
-                el.classList.remove(className);
-           });
-           this.classList.add(className);
-      });
-  }
-}
-
-addClassElementEvent('.p-items','active','click');
-
-function up(max) {
-    document.getElementById("myNumber").value = parseInt(document.getElementById("myNumber").value) + 1;
-    if (document.getElementById("myNumber").value >= parseInt(max)) {
-        document.getElementById("myNumber").value = max;
+        for (var i = 0; i < elements.length; i++) {
+            elements[i].addEventListener(event, function (event) {
+                [].forEach.call(elements, function (el) {
+                    el.classList.remove(className);
+                });
+                this.classList.add(className);
+            });
+        }
     }
-}
-function down(min) {
-    document.getElementById("myNumber").value = parseInt(document.getElementById("myNumber").value) - 1;
-    if (document.getElementById("myNumber").value <= parseInt(min)) {
-        document.getElementById("myNumber").value = min;
+
+    addClassElementEvent(".p-items", "active", "click");
+
+    function up(max) {
+        document.getElementById("myNumber").value =
+            parseInt(document.getElementById("myNumber").value) + 1;
+        if (document.getElementById("myNumber").value >= parseInt(max)) {
+            document.getElementById("myNumber").value = max;
+        }
     }
-}
+    function down(min) {
+        document.getElementById("myNumber").value =
+            parseInt(document.getElementById("myNumber").value) - 1;
+        if (document.getElementById("myNumber").value <= parseInt(min)) {
+            document.getElementById("myNumber").value = min;
+        }
+    }
+</script>
 
-
-
-
-
-</Script>
 </html>
