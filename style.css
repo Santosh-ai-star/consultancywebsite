@@ -415,9 +415,11 @@ a:hover {
 
 .slider-btn button:hover {
     background-color: #07294d;
-    border: 0;
+    
 }
-
+a.active {
+    color: #0c8b51;
+  }
 .hero {
     margin-top: 250px;
 }
@@ -851,6 +853,9 @@ a:hover {
     padding-top: 25px;
     gap: 30px;
 }
+.event-tab .nav li a.active{
+    color: #0c8b51;
+}
 
 .event-tab .nav li a {
     font-weight: 600;
@@ -858,7 +863,7 @@ a:hover {
     display: inline-block;
     text-align: left;
     text-decoration: none;
-    color: #07294d;
+    color: #fff;
     border: 1px solid #dbdbdb;
     border-top-color: rgb(219, 219, 219);
     border-right-color: rgb(219, 219, 219);
@@ -867,6 +872,7 @@ a:hover {
     padding: 0 30px;
     height: 45px;
     line-height: 43px;
+    background-color: #07294d;
 }
 
 a {
@@ -4718,3 +4724,10 @@ strong {
     padding-left: 230px;
     padding-right: 206px;  }
    
+    .fa-magnifying-glass:hover{
+        color: #0c8b51;
+        transition: 0.3s linear;
+    }
+    .fa-magnifying-glass{
+        transition: 0.3s linear;
+    }
